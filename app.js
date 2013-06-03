@@ -6,6 +6,7 @@
 var express = require('express');
 
 var app = module.exports = express.createServer();
+var port = process.env.PORT || 3000;
 
 // Configuration
 var pub = __dirname + '/public';
@@ -107,6 +108,6 @@ app.post('/posts/addComment', function(req, res){
 // Only listen on $ node app.js
 
 if (!module.parent) {
-  app.listen(3000);
+  app.listen(port);
   console.log("Express server listening on port %d", app.address().port);
 }

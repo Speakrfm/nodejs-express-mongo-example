@@ -1,4 +1,4 @@
-#MongoDb Express nodejs and heroku example
+##MongoDb Express nodejs and heroku Blog example
 
 ### Create local 
 `sudo npm install express`
@@ -31,8 +31,9 @@
 
 ### Run on localhost
 node app.js
-visit http://localhost:3000
 
+ `http://localhost:3000`
+[visit http://localhost:3000](http://localhost:3000)
 
 Folked by: https://github.com/cmarin/MongoDB-Node-Express-Blog
 
