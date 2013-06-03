@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var db_url = process.env.MONGOHQ_URL || "mongodb://localhost/my_blog";
+var db_url = process.env.MONGOLAB_URI || "mongodb://localhost/my_blog";
 mongoose.connect(db_url);
 
 var Schema = mongoose.Schema
