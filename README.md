@@ -1,26 +1,19 @@
 ##MongoDb Express nodejs and heroku Blog example
 
-### Create local 
-`sudo npm install express`
-
-`sudo npm install express-messages`
-
-`sudo npm install ejs`
-
-`sudo npm install sass`
-
-`sudo npm install mongoose`
+### Install packages 
+`sudo npm install express express-messages mongoose sass ejs`
 
 
 ### View the latestest from registry.npmjs.org
-
 `npm view <package-name> version`
 
-fixed your package.json
+Fix your package.json, `heroku requires to define all packages and versions`! Else you have an exeption!
 
 ### Update
 `sudo npm install -d`
+
 `npm list`
+
 `npm list --depth=0`
 
 ###Deploy in heroku
