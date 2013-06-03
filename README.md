@@ -32,9 +32,9 @@
 ### Run on localhost
 node app.js
 
- `http://localhost:3000`
-[visit http://localhost:3000](http://localhost:3000)
+`http://localhost:3000`
+visit: [http://localhost:3000](http://localhost:3000)
 
 Folked by: https://github.com/cmarin/MongoDB-Node-Express-Blog
 
-Edited by:@yannis_kolovos
+Edited by:[@yannis_kolovos](https://twitter.com/yannis_kolovos)
