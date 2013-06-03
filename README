@@ -1,6 +1,6 @@
 MongoDb Express nodejs and heroku example
 
-#Create local 
+# Create local 
 sudo npm install express
 sudo npm install express-messages
 sudo npm install ejs
@@ -8,7 +8,7 @@ sudo npm install sass
 sudo npm install mongoose
 
 
-#Update
+# Update
 sudo npm install -d      
 
 #Deploy in heroku
@@ -21,6 +21,6 @@ git push heroku
 heroku open 
 
 
-#Run on localhost
+# Run on localhost
 node app.js
 visit http://localhost:3000
