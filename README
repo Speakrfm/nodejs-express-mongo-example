@@ -1,7 +1,7 @@
 MongoDb Express nodejs and heroku example
 
 # Create local 
-sudo npm install express
+> sudo npm install express
 sudo npm install express-messages
 sudo npm install ejs
 sudo npm install sass
