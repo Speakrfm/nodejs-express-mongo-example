@@ -14,6 +14,9 @@
    "dependencies": {
       "express": "2.4.3"
     , "stylus": ">= 0.0.1"
+    , "sass": ">= 1.2.24"
+    , "ejs": ">= 1.2.24"
+    , "express-messages": ">= 1.2.24"			
 	, "mongoose": ">= 1.2.24"
     , "jade": ">= 0.0.1"
     , "mongodb": ">= 0.9.6-7"
