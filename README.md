@@ -12,8 +12,16 @@
 `sudo npm install mongoose`
 
 
+### View the latestest from registry.npmjs.org
+
+`npm view <package-name> version`
+
+fixed your package.json
+
 ### Update
 `sudo npm install -d`
+`npm list`
+`npm list --depth=0`
 
 ###Deploy in heroku
 `heroku create `
