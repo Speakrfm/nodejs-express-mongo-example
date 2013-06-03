@@ -1,0 +1,20 @@
+{
+    "name": "application-name"
+  , "version": "0.0.1"
+  ,	"engines": {
+       "node": "0.10.x",
+       "npm":  "1.2.x"
+   }
+    ,"private": true
+  ,
+  "scripts": {
+    "start": "node app.js"
+  },
+  
+   "dependencies": {
+      "express": "2.4.3"
+    , "stylus": ">= 0.0.1"
+    , "jade": ">= 0.0.1"
+    , "mongodb": ">= 0.9.6-7"
+  }
+}
